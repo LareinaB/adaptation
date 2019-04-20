@@ -1,1 +1,7 @@
 
+三栏布局垂直方向的实现，宽度固定，上下高度各100px，中间自适应，四种实现方式：
+position：absolute
+display: flex
+display: table
+display: grid
+需要注意的是在后面两种中，需要设置position为fixed父级元素才能占满浏览器的高度，在table方式中
